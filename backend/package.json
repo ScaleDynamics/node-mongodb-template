@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test",
+    "dev": "warp dev ./",
+    "build": "warp build ./",
+    "predeploy": "warp project select",
+    "deploy": "warp deploy ./"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "@warpjs/engine": "^4.0.9",
+    "warp": "^4.0.9"
+  }
+}
