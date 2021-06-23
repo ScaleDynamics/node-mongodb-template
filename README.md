@@ -2,7 +2,7 @@
 
 This template is configured for the ScaleDynamics web platform. It is on MIT license and ready to use to build your own app/service. All is pre-configured: we provide one command to develop with live reload (backend) and one to deploy to make it live on a url.
 
-One particularity of our platform is that you don’t have to manage the [Express](https://expressjs.com/) layers, the platform manages them for you automatically, so you can focus only on the Node/React coding.
+One particularity of our platform is that you don’t have to manage the [Express](https://expressjs.com/) layers, the platform manages them for you automatically, so you can focus only on the Node coding.
 
 Note that you need a ScaleDynamics account for deployment (create a FREE community account [here](https://console.scaledynamics.com/auth/signup/)).
 
@@ -19,7 +19,7 @@ npm install
 
 ### Live-reload for development
 
-To enter a live-reload development session, use the command below. Feel free to update the frontend or the backend code, it will be rebuilt at each change.
+To enter a live-reload development session, use the command below. Feel free to update the backend code, it will be rebuilt at each change.
 
 
 ```ssh
@@ -92,10 +92,6 @@ const { myFunction } = new Backend();
 If you need more information, you can refer to the documentation:
   - [ScaleDynamics Platform](https://docs.scaledynamics.com/docs/frameworks)
   - [MongoDB](https://docs.mongodb.com/guides/)
-
-Here are some links to useful libraries :
-  - [Axios](https://github.com/axios/axios)
-  - [Parcel](https://parceljs.org/)
 
 
 ## License
