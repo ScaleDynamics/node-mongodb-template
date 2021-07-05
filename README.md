@@ -26,6 +26,8 @@ To enter a live-reload development session, use the command below. Feel free to 
 npm run dev
 ```
 
+Note that when running this command, you have to select a project. On the ScaleDynamics platform, a project identifies an application or a microservice. If you are logged, select an existing project or create a new one. Else, you can use the platform anonymously. For more details on projects, see the [documentation](https://docs.scaledynamics.com).
+
 You can test the template by using:
 
 ```ssh
@@ -52,9 +54,7 @@ Finally use the deploy command
 npm run deploy
 ```
 
-Note that when running this command, you have to select a project and an environment. On the ScaleDynamics platform a project identifies an application or a microservice.
-
-Select an existing project or create a new one. An environment identifies the cloud execution environment to run your app. You can create as many as you want like ‘staging’, ‘demo’, ‘prod’... Each environment has its own url.
+Note that when running this command, you have to select an environment. An environment identifies the cloud execution environment to run your app. You can create as many as you want like ‘staging’, ‘demo’, ‘prod’... Each environment has its own url.
 
 To deploy, select an existing environment or create a new one. For more details on projects or environments, see the [documentation](https://docs.scaledynamics.com).
 
@@ -69,7 +69,7 @@ const URI = 'mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[de
 ```
 
 
-You can create new functions that can be called by other modules or frontend. Add them in `index.js` or into another module and export it. The platform manages the [Express](https://expressjs.com/) layers automatically.
+You can create new functions that can be called by other modules or frontend. Add them in `src/index.js` or into another module and export it. The platform manages the [Express](https://expressjs.com/) layers automatically.
 
 
 ```js
