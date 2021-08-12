@@ -1,20 +1,19 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test",
+    "predev": "npx warp project select",
     "dev": "warp dev ./",
     "build": "warp build ./",
-    "predeploy": "warp project select",
     "deploy": "warp deploy ./"
   },
   "dependencies": {
-    "mongodb": "^3.6.6"
+    "mongodb": "^4.1.0"
   },
   "devDependencies": {
-    "@warpjs/engine": "^4.0.9",
-    "warp": "^4.0.9"
+    "@warpjs/engine": "^4.0.13",
+    "warp": "^4.0.13"
   }
 }
